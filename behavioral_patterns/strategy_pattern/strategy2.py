@@ -67,7 +67,7 @@ class Resizer:
 
 
 def main() -> None:
-    image_file = Path.cwd() / "behavioral_patterns/strategy_pattern/strategyex/test.png"
+    image_file = Path.cwd() / "behavioral_patterns/strategy_pattern/test.png"
     tiled_desktop = Resizer(TiledStrategy())
     tiled_image = tiled_desktop.resize(image_file, (1920, 1080))
     tiled_image.show()
