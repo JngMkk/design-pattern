@@ -1,6 +1,6 @@
 import itertools
 
-from structural_patterns.adaptor_pattern.class_adapter import InvalidPolygonError, Polygon
+from structural_patterns.adapter_pattern.ex2.main import InvalidPolygonError, Polygon
 
 
 class Triangle:
